@@ -1,0 +1,63 @@
+header
+{
+	display:  block;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(168, 130, 176);
+}
+
+.header_solo
+{
+    width: 100%;
+    height: 130px;
+    padding: 0 0 0 0;
+    max-width:  960px;
+    margin: 0 auto 0 auto;
+}
+
+.text_header
+{
+    font-family: 'Arial', sans-serif;
+    color:white;
+    font-size: 350%;
+}
+
+#logo
+{
+    width: 90px;
+    height: 80px;
+    background: url(kotyra.png);
+    float: left;
+	margin-right: 50px;
+}
+
+#name {
+    padding:  0 0 0 0;
+    float:  left;
+}
+
+#name h1 {
+    height:  100%;
+    line-height: 60px;
+    margin-top: 25px;
+}
+.menu{
+    margin-top: 2em;
+    list-style: none;
+    text-align: center;
+	
+}
+
+.menu li {
+    display: inline-block;
+	margin-right: 25px;
+}
+
+
+body{
+    text-align: center;
+    margin-bottom: 0;
+    background: pink;
+  
+}

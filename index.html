@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+     <meta charset="UTF-8">
+     <title>Vinogradova Olesya.</title>
+	 <link rel="stylesheet" href="style.css">
+   </head>
+    <body>
+		<header>
+			<div class="header_solo">
+			<div id="logo"></div>
+			<div id="name">
+				<h1 class="text_header">Love and hope</h1>
+			</div>
+			</div>
+        </header>
+		<nav class="menu">
+			<ul>
+				<li><a href=#heading >Задание 1</a></li>
+				<li><a href=#table>Таблица</a></li>
+				<li><a href=#forma>Форма</a></li>
+			</ul>
+		</nav>
+		<h1 id="heading">Первое задание.</h1>
+		<p>
+		<h2>Нумерованный список</h2>
+    
+		<ol>
+		<li><a href="http://example.com">Абсолютная гиперссылка на главную страницу сайта example.com</a></li>
+		<li><a href="https://example.com">Гиперссылка на главную сайта example.com в протоколе https</a></li>
+      	<li><a href="ftp://admin.ru/web/1.txt">Ссылка на файл на сервере FTP без авторизации</a></li>
+      	<li><a href="ftp://test:password@admin.ru/web/1.txt">Ссылка на файл на сервере FTP с авторизацией</a></li>
+      	<li><a href="http://example.com#list">Ссылка на фрагмент страницы некоторого сайта</a></li>
+      	<li><a href="#heading">Ссылка на фрагмент этой страницы</a></li>
+      	<li><a href="https://github.com/?branch=master&repo=chat">Ссылка с двумя параметрами в URL</a></li>
+      	<li><h3>Ссылки навигации:</h3>
+    		<nav>
+      			<ul>
+        			<li><a href="#heading">На начало</a></li>
+        			<li><a href="#forma">К форме</a></li>
+      			</ul>
+    		</nav>
+  		</li>
+  		<li><a title="Ссылка">Ссылка без href</a></li>
+  		<li><a href="">Ссылка с пустым href</a></li>
+  		<li><a href="https://example.com" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a></li>
+  		<li><a href="https://example.com" rel="noindex">Ссылка,  запрещенная для индексации поисковиками</a></li>
+  		<li>
+    		<p>
+      		Домашняя кошка — домашнее животное, одно из наиболее популярных «животных-компаньонов».<br> С точки зрения научной систематики, домашняя кошка — млекопитающее семейства <a href="https://ru.wikipedia.org/wiki/Кошачьи">кошачьих</a> отряда хищных.
+    		</p>
+		</li>
+  		<li><a href="https://saltmag.ru/lifestyle/fun/6373-luchshie-memy-s-kotami/"><img src="gif.gif" alt="Картинка"></a>
+  		<li>
+    		<img src="photo.jpg" width="300" height="300" usemap="#Navigation" alt="Картинка навигации">
+    		<map name="Navigation">
+      		<area shape="circle" coords="200,75,50" href="https://esquire.ru/articles/172123-natash-vstavay-my-uronili-voobshche-vse-na-fone-poslednih-sobytiy-v-seti-obrel-populyarnost-novyy-mem-s-kotami/#part2" alt="Картинка с кругом">
+      		<area shape="rect" coords="25,25,125,125" href="https://memepedia.ru/tag/koty/" alt="Картинка с прямоугольником">
+    		</map>
+  		</li>
+  		<li><a href="index.html">Относительная на страницу в текущем каталоге</a></li>
+  		<li><a href="about">Относительная на страницу в каталоге about</a></li>
+  		<li><a href=".">Один вверх</a></li>
+  		<li><a href="./.">Два вверх</a></li>
+  		<li><a href="/">Сокращенная на главную</a></li>
+  		<li><a href=”/about”>Сокращенная ссылку на внутреннюю</a> </li>
+  		</ol>
+		<h1 id="table">Таблица</h1>
+		<table>
+    		<tr>
+        <th>Колонка 1</th>
+        <th>Колонка 2</th>
+        <th>Колонка 3</th>
+			</tr>
+			<tr>
+        <td>Блок 11</td>
+        <td>Блок 12</td>
+        <td>Блок 13</td>
+			</tr>
+			<tr>
+        <td colspan="2">Блок 21 объединенная с 22</td>
+        <td rowspan="2">Блок 23 и 33</td>
+			</tr>
+			<tr>
+        <td>Блок 31</td>
+        <td>Блок 32</td>
+			</tr>
+			<tr>
+        <td>Блок 41</td>
+        <td>Блок 42</td>
+        <td>Блок 43</td>
+			</tr>
+			<tr>
+        <td colspan="3">Ячейка 51 объединенная с 52 и 53</td>
+    </tr>
+</table>	
+  		<br>
+  			<h1 id="forma">Пример формы HTML</h1>
+    		<form action="/" method="POST">
+				<label>
+					Введите Ваше имя:
+					<br/>
+					<input name="field-name-1"
+						   value=" "/>
+				</label>
+				<br/>
+				<label>
+					Введите Ваш email:
+        <br/>
+        		<input name="field-email"
+					   	value="test@example.com"
+					   	type="email"/>
+      			</label>
+		<br/>
+
+      <label>
+        Введите Вашу дату рождения:
+        <br/>
+        <input name="field-date"
+          value="2002-05-30"
+          type="date"/>
+      </label>
+      <br/>
+
+      Количество конечностей:<br/>
+      <label><input type="radio" checked="checked" name="radio-group-1" value="Значение1" />1</label>
+      <label><input type="radio" name="radio-group-1" value="Значение2"/>2</label>
+      <label><input type="radio" name="radio-group-1" value="Значение2"/>3</label>
+      <label><input type="radio" name="radio-group-1" value="Значение2"/>4</label>
+      <br/>
+
+      Пол:<br/>
+      <label><input type="radio" checked="checked" name="radio-group-2" value="Значение1" />Мужской</label>
+      <label><input type="radio" name="radio-group-2" value="Значение2"/>Женский</label>
+      <br/>
+
+      <label>
+        Сверхспособности:
+        <br/>
+        <select name="field-name-4[]" multiple="multiple">
+          <option value="Значение1">Бессмертие</option>
+		  <option value="Значение2" selected="selected">Не опаздывать</option>
+          <option value="Значение3" selected="selected">Прохождение сквозь стены</option>
+          <option value="Значение4" selected="selected">Левитация</option>
+        </select>
+      </label><br/>
+
+      <label>
+        Биография:<br />
+        <textarea name="field-name-2"></textarea>
+      </label><br/>
+
+      <label>
+        С контрактом ознакомлен (а):<input type="checkbox" checked="checked" name="check-1"/>
+      </label>
+      <br/>
+
+      <label> 
+        Отправьте котика:
+        <input type="submit" value="Отправить" />
+    </label>
+    </form>
+	<footer>Виноградова Олеся 2021</footer>
+    </body>
+</html>
+ 
+
