@@ -52,6 +52,7 @@ header
 .menu li {
     display: inline-block;
 	margin-right: 25px;
+	
 }
 
 
@@ -61,3 +62,62 @@ body{
     background: pink;
   
 }
+nav {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav li {
+    float:left;
+}
+
+ul{
+    list-style: none;
+    text-align:left;
+}
+
+ol{
+    display:inline-table;
+}
+
+li{
+    margin-bottom: 4px;
+    text-align:left;
+}
+
+table{
+    text-align: center;
+    display: inline-block;
+    border-spacing: 4px;
+    width: 50%;
+    border:5px;
+	margin-left: 280px;
+}
+
+td{
+    width:150px;
+    height:50px;
+}
+
+{
+
+}
+
+tr:nth-child(odd)
+{
+    background: white;
+    padding: 4px;
+}
+
+tr:nth-child(even)
+{
+    background: gray;
+    padding: 4px;
+}
+
+
