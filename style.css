@@ -1,10 +1,19 @@
+header *{
+ margin: 0;
+ padding: 0;
+}
+html, body { margin:0; padding:0; }
 header
 {
 	display:  block;
     height: 200px;
     margin-left: auto;
     margin-right: auto;
-    background: rgb(168, 130, 176);
+	background: linear-gradient(to top left, powderblue, pink);
+ 	box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+	margin: 0;
+	width: 100%;
+    padding: 0;
 }
 
 .header_solo
@@ -16,10 +25,11 @@ header
     margin: 0 auto 0 auto;
 }
 
+
 .text_header
 {
     font-family: 'Arial', sans-serif;
-    color:white;
+    color:#DB7093;
     font-size: 350%;
 }
 
@@ -59,7 +69,7 @@ header
 body{
     text-align: center;
     margin-bottom: 0;
-    background: pink;
+    background: url(pexels-eberhard-grossgasteiger-2088169.jpg);
   
 }
 nav {
@@ -86,7 +96,7 @@ ol{
 }
 
 li{
-    margin-bottom: 4px;
+    margin-bottom: 10px;
     text-align:left;
 }
 
@@ -96,7 +106,8 @@ table{
     border-spacing: 4px;
     width: 50%;
     border:5px;
-	margin-left: 280px;
+	/*margin-left: 180px;*/
+	
 }
 
 td{
@@ -104,20 +115,130 @@ td{
     height:50px;
 }
 
-{
-
-}
-
 tr:nth-child(odd)
 {
-    background: white;
+    background: #FFB6C1;
     padding: 4px;
+	color: rgb(51, 3, 63);
 }
 
 tr:nth-child(even)
 {
-    background: gray;
+    background: #BC8F8F;
     padding: 4px;
+	color: rgb(51, 3, 63);
+}
+  
+h1{color:#DB7093;}
+h2{color:#DB7093;}
+
+a{
+    
+    color: rgb(51, 3, 63);
+    text-decoration: none;
 }
 
+.menu ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:25px; /*делаем отступ сверху*/
+}
+.menu a {
+  background:#F08080; /*добавляем фон к пункту меню*/
+  color: white; /*меняем цвет ссылок*/
+  padding:20px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  border-radius:6px; /*добавляем скругление*/
+  -moz-transition: all 0.3s 0.1s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.1s ease;
+  -webkit-transition: all 0.3s 0.1s ease;
+}
 
+.menu a:hover {
+  background:#CD5C5C;/*добавляем эффект при наведении*/
+}
+.menu li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right:25px; /*Добавляем отступ у пунктов меню*/
+  
+}
+
+.body_s{
+   
+    background: #FFE4E1; /* Цвет фона */
+    width: 1000px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;  
+    border: 6px solid #BC8F8F; /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
+}
+input[name=field]{
+    background-color: #FFF0F5;
+    color: rgb(51, 3, 63);
+	width: 40%;
+	margin: 15px 0;
+	border-radius: 5px;
+	border: none;
+	font-size: 18px;
+}
+input[value] {
+    
+    color: #C0C0C0;
+	
+}
+select
+{
+	background-color: #FFF0F5;
+    color: rgb(51, 3, 63);
+	width: 40%;
+	margin: 15px 0;
+	border-radius: 5px;
+	border: none;
+	font-size: 18px;
+}
+textarea
+{
+	background-color: #FFF0F5;
+    color: rgb(51, 3, 63);
+	width: 40%;
+	margin: 15px 0;
+	border-radius: 5px;
+	border: none;
+	font-size: 18px;
+}
+.button {
+    background-color: #4d2d2d;
+    border: none;
+    color: white;
+    padding: 4px 20px;
+	border-radius: 8px;
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button:hover {
+    background-color: white; 
+    
+}
+@media screen and (min-device-width: 426px) {
+    .menu{
+        width: 960px;
+        margin: 0 auto;
+        flex-direction: row;
+    }
+    .body_s{
+        width: 960px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+	 .header_solo{
+        width: 960px;
+	}
+   
+  }

@@ -2,7 +2,7 @@
 <html lang="ru">
    <head>
      <meta charset="UTF-8">
-     <title>Vinogradova Olesya.</title>
+     <title>Vinogradova Olesya</title>
 	 <link rel="stylesheet" href="style.css">
    </head>
     <body>
@@ -14,17 +14,20 @@
 			</div>
 			</div>
         </header>
+		<p>
 		<nav class="menu">
 			<ul>
-				<li><a href=#heading >Задание 1</a></li>
+				<li><a href=#heading >Ссылки</a></li>
 				<li><a href=#table>Таблица</a></li>
 				<li><a href=#forma>Форма</a></li>
 			</ul>
 		</nav>
-		<h1 id="heading">Первое задание.</h1>
+		
+		<h1 id="heading">Задания:</h1>
 		<p>
+		<div class="body_s">
 		<h2>Нумерованный список</h2>
-    
+
 		<ol>
 		<li><a href="http://example.com">Абсолютная гиперссылка на главную страницу сайта example.com</a></li>
 		<li><a href="https://example.com">Гиперссылка на главную сайта example.com в протоколе https</a></li>
@@ -67,41 +70,42 @@
         <th>Колонка 3</th>
 			</tr>
 			<tr>
-        <td>Блок 11</td>
-        <td>Блок 12</td>
-        <td>Блок 13</td>
+        <td>&#10084; &#10084; &#10084;</td>
+        <td> &#127826; &#127826; &#127826;</td>
+        <td>&#10084; &#10084; &#10084;</td>
 			</tr>
 			<tr>
-        <td colspan="2">Блок 21 объединенная с 22</td>
-        <td rowspan="2">Блок 23 и 33</td>
+        <td colspan="2">&#10084; &#10084; &#10084;</td>
+        <td rowspan="2">&#10084; &#10084; &#10084;</td>
 			</tr>
 			<tr>
-        <td>Блок 31</td>
-        <td>Блок 32</td>
+        <td>&#10084; &#10084; &#10084;</td>
+        <td>&#127867; &#127867; &#127867;</td>
 			</tr>
 			<tr>
-        <td>Блок 41</td>
-        <td>Блок 42</td>
-        <td>Блок 43</td>
+        <td>&#10084; &#10084; &#10084;</td>
+        <td>&#10084; &#10084; &#10084;</td>
+        <td>&#10084; &#10084; &#10084;</td>
 			</tr>
 			<tr>
-        <td colspan="3">Ячейка 51 объединенная с 52 и 53</td>
+        <td colspan="3">&#127761; &#127763; &#127764; &#127765;</td>
     </tr>
 </table>	
   		<br>
-  			<h1 id="forma">Пример формы HTML</h1>
+  			<h1 id="forma">Форма</h1>
     		<form action="/" method="POST">
+
 				<label>
 					Введите Ваше имя:
 					<br/>
-					<input name="field-name-1"
+					<input name="field"
 						   value=" "/>
 				</label>
 				<br/>
 				<label>
 					Введите Ваш email:
         <br/>
-        		<input name="field-email"
+        		<input name="field"
 					   	value="test@example.com"
 					   	type="email"/>
       			</label>
@@ -110,7 +114,7 @@
       <label>
         Введите Вашу дату рождения:
         <br/>
-        <input name="field-date"
+        <input name="field"
           value="2002-05-30"
           type="date"/>
       </label>
@@ -151,9 +155,10 @@
 
       <label> 
         Отправьте котика:
-        <input type="submit" value="Отправить" />
+        <input type="submit" class="button" value="Отправить" />
     </label>
     </form>
+		</div>
 	<footer>Виноградова Олеся 2021</footer>
     </body>
 </html>
